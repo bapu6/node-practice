@@ -1,0 +1,22 @@
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.formContainer{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+h1, .submitBtn{
+    text-align:center
+}
+a{
+    text-decoration: none;
+    color:"#000000"
+}
+.error{
+    color:red
+}
